@@ -19,5 +19,7 @@ bot.command('kb', (ctx) => {
   ]).oneTime().resize().extra());
 });
 
+bot.launch().catch(console.error);
+
 
 module.exports = bot;

@@ -6,6 +6,6 @@ const bot = require('./src/bot');
   wsClient.on('close', () => {
     console.log('closed');
   });
-  await bot.launch();
+  // await bot.launch();
   await startExpress(wsClient, bot);
 })();
